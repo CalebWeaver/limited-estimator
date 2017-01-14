@@ -123,13 +123,6 @@
 	function getRatings() {
 		$.getJSON("./assets/aer-average-ratings.json", function(data) {
 			cardsByNumber = data;
-			findCard('123');
-			findCard('127');
-			// findCard('030');
-			// findCard('008');
-			// findCard('072');
-			// findCard('146');
-			// findCard('092');
 		});
 	}
 })(destinyParser);
