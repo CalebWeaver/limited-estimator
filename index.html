@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Choose My Destiny!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron jumbo">
+        <h1 class="display-3 page-head">What is your Destiny?</h1>
+        <div class='search-container'>
+          <input class="form-control number-input" id="cardNumber" placeholder="Card Number" type="text" />
+          <br/>
+          <button class="btn btn-primary destiny-button" id="destinyButton" type="button">ENLIGHTEN!</button>
+        </div>
+      </div>
+      <div class="col-xs-7">
+        <ul class="list-group card-table" id="cards">
+        </ul>
+      </div>
+      <div class="col-xs-5">
+        <div class="destiny-grid" id="destiny">
+        </div>
+      </div>
+    </div>
+  </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script src="js/destinyParser.js"></script>
+    <script src="js/main.js"></script>
+</html>

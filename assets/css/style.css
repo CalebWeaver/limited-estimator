@@ -1,0 +1,58 @@
+.page-head {
+	text-align: center;
+}
+
+.search-container {
+	display: inline-block;
+}
+
+.jumbo {
+	text-align: center;
+}
+
+.button-cell {
+	padding-right: 12px;
+}
+
+.number-input {
+	margin:24px;
+}
+
+.destiny-grid {
+	margin: 12px;
+}
+
+.color-icon {
+	width: 35px;
+	height: 35px;
+}
+
+.color-G {
+	border-right: 8px solid green;
+	border-left: 8px solid green;
+}
+
+.color-B {
+	border-right: 8px solid black;
+	border-left: 8px solid black;
+}
+
+.color-U {
+	border-right: 8px solid blue;
+	border-left: 8px solid blue;
+}
+
+.color-R {
+	border-right: 8px solid red;
+	border-left: 8px solid red;
+}
+
+.color-L {
+	border-right: 8px solid grey;
+	border-left: 8px solid grey;
+}
+
+.color-M {
+	border-right: 8px solid #d6cb25;
+	border-left: 8px solid #d6cb25;
+}
